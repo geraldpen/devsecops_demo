@@ -35,7 +35,7 @@ const GameHistory: React.FC<GameHistoryProps> = ({ history }) => {
   };
 
   return (
-    <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+    <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
       <h2 className="text-lg font-semibold text-gray-800 mb-3 flex items-center gap-2">
         <History className="h-5 w-5 text-blue-500" />
         Game History
